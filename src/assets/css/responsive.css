@@ -1,0 +1,382 @@
+@media (max-width: 480px) {
+
+    /*Header Responsive*/
+
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-responsive {
+        position: fixed;
+        right: 100%;
+
+
+        width: 100%;
+        height: 150px;
+
+        backdrop-filter: blur(5px);
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .agregando-clase_nav {
+
+        position: fixed;
+        right: 0;
+
+        transition: 1s;
+
+
+
+    }
+
+
+    header nav ul {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    header nav ul li {
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .header-logo-imagen {
+
+        width: 80px;
+    }
+
+    .boton-hamburguesa {
+
+        display: block;
+
+        color: white;
+        z-index: 2000;
+    }
+
+
+    .h1-header-texto-programacion {
+
+        padding: 4px;
+        font-size: 16px;
+    }
+
+
+    .icon-header-responsive {
+        font-size: 10px;
+    }
+
+
+    /*Header Responsive*/
+
+
+
+
+    /*Article 1*/
+
+    .article-1 {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
+
+
+    .article-1 h2 {
+        font-size: 20px;
+    }
+
+    /*Article 1*/
+
+
+
+
+    /*Imagenes*/
+    /*WIDTH: 384PX*/
+    .avatar-landingpage-izquierda {
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        transform: translate(-15%, -35%);
+
+        width: 150px;
+        height: auto;
+
+        opacity: 0.7;
+    }
+
+
+    .avatar-landingpage-derecho {
+        position: absolute;
+        top: 38%;
+        right: 5%;
+        transform: translate(-5%, -38%);
+
+        width: 150px;
+        height: auto;
+
+        opacity: 0.7;
+
+    }
+
+    /*Imagenes*/
+
+
+
+
+    /*Article 2*/
+
+    .caja-padre-servicios-article-2 {
+        background-color: transparent;
+        border-radius: 40px;
+        box-shadow: 0px 0px 15px 0px white;
+        /*580px*/
+        width: 250px;
+        /*250px*/
+        height: 150px;
+
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+
+    }
+
+
+
+    .caja-hija-servicios-article-2 {
+        background-image: url(../img/Avatar-Servicios-morado.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        border-radius: 40px;
+        /*550px*/
+        width: 240px;
+        /*220px*/
+        height: 140px;
+        padding: 4px;
+
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .caja-subhija-hija-article-2 a {
+        font-size: 12px;
+    }
+
+
+    .caja-subhija-hija-article-2 p {
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+
+    .caja-responsive-servicios-top {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+
+    .caja-responsive-servicios-top h2 {
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        font-weight: bolder;
+
+    }
+
+    .boton-contacto-section-1-3d-responsive {
+        position: absolute;
+        top: 180%;
+        left: 50%;
+
+        transform: translate(-50%, -180%);
+    }
+
+    /*Article 2*/
+
+
+
+
+    /*Article 3*/
+    .texto-cerebro-digital-responsive {
+        display: none;
+    }
+    /*Article 3*/
+
+
+
+    /*Section 2*/
+
+    .texto-quienes-somos {
+        font-size: 20px;
+    }
+
+    .svg-holas-negras-responsive {
+        opacity: 0.5;
+    }
+
+    .caja-quienes-somos-padre {
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .caja-hija-quienes-somos-padre {
+        flex-direction: column;
+        gap: 10px;
+
+
+    }
+
+    .card {
+        width: 100%;
+        height: 327px;
+        padding: 2px;
+        background: #171717;
+
+        overflow-y: scroll;
+
+    }
+
+    .card button {
+        padding: 2px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .card .img {
+        width: 3.8em;
+        height: 3.8em;
+        border-radius: 15px;
+        margin: auto;
+    }
+
+    .card .info {
+        font-size: 12px;
+    }
+
+    .link-whatsapp-quienes-somos {
+        display: block;
+        margin: auto;
+        transition: .4s ease-in-out;
+
+        margin-top: 3px;
+        
+        
+    }
+    
+    
+    .link-whatsapp-quienes-somos i {
+        font-size: 20px;
+        color: #25D366;
+    }
+
+    /*Section 2*/
+
+
+
+
+    /*Section 3*/
+
+    .texto-servicios-responsive {
+        font-size: 20px;
+    }
+
+    .article-services-section-3 {
+        flex-direction: column;
+        gap: 10px;
+
+        margin-top: 8px;
+        margin-bottom: 20px;
+
+    }
+    /*Section 3*/
+
+
+
+
+    /*Section 4*/
+
+    .section-padre-cuarta {
+        margin-top: 600px;
+    }
+
+    .article-1-section-4-image {
+        width: 100%;
+    }
+
+    .texto-tiutlo-form-responsive {
+        font-size: 17px;
+    }
+
+    .titutlo-contacto-responsive {
+        margin-top: 20px;
+    }
+
+    /*Section 4*/
+
+
+
+
+    /*Footer*/
+
+   
+    .caja-titulo-footer-responsive {
+        margin: auto;
+        width: 70%;
+        
+    }
+
+    .responsive-boton-footer {
+        margin-top: 50px;    
+    }
+
+    .texto-dejanos-ayudarte-responsive {
+        font-size: 30px;
+    }
+
+    .icono-footer-flecha {
+        font-size: 30px;
+    }
+
+    .google-maps-footer-responsive {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+
+    
+    }
+
+    .caja-google-maps-footer-responsive {
+        margin-top: 30px;
+
+        width: 100%;
+        height: 40%;
+    }
+
+   
+    /*Footer*/
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  }
